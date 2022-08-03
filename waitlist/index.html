@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favcn.png">
+    <title>Growleads waitlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="script.js"></script>
+  
+</head>
+<body id="body" >
+    <div class="top-container">
+        <div class="top-bar">
+            <img class="logo" src="images/IMG-20220714-WA0027-removebg-preview.png" alt="logo">
+          <a  onclick="openMainModal()"  class="logo-button" href="#">Join the waitlist now</a>
+        </div>
+        <div class="second-container">
+            <div class="top-writing">
+            <h1>Grow your brand with <br> micro-influencers <br> through Growlead today</h1>
+            <p class="subheading">A platform created for brands & Creators to collaborate and <br>thrive.</p>
+            </div>
+                <div class="circles">
+               <img class="img-1" src="images/IMG-20220714-WA0025-removebg-preview.png" alt="circles">
+               <img class="img-2" src="images/IMG-20220714-WA0025-removebg-preview.png" alt="circles">
+               <img class="img-3" src="images/IMG-20220714-WA0025-removebg-preview.png" alt="circles">
+               <img class="img-4" src="images/IMG-20220714-WA0025-removebg-preview.png" alt="circles">
+            </div>
+                <div class="overall-input">
+                   <a onclick="openMainModal()" class="second-button"id="second-button" href="#">Join the waitlist</a>
+            </div>
+            <div class="second-button-mobile-div" >
+            <a onclick="openMainModal()" class="second-button-mobile" id="second-button" href="#">Join the waitlist</a>
+        </div>
+        </div>
+        </div>
+            <div id="main-content" >
+                <div  class="main-content">
+            <div class="left-content">
+                <p>How would you describe yourself?</p>
+                <form action="#" onsubmit="openModal() "return false>
+                <input type="radio" name="radio">
+                <label for="brand owner">Brand owner</label><br>
+                <input type="radio" name="radio">
+                <label for="content creator">Content creator</label><br>
+                <input type="radio" name="radio" required >
+                <label for="Social media influencer">Social media influencer</label><br>
+                <input type="radio" name="radio">
+                <label for="other">Other</label><br>
+                <div class="email-button-page-2">
+                <input  id="email"  class="email" type="email"  placeholder="Email Address" required><br>
+                <p id="email-val"></p>
+                <input type="submit" value="Keep me updated"    id="openmodal" class="button-page-2">
+            </div>
+                <i  onclick="closeModalFirst()"  class="ri-close-fill"></i>
+            </form>
+            </div>
+            <div class="gif">
+                <img class="gif-items" src="images/VID-20220726-WA0006_AdobeExpress.gif" alt="gif">
+            </div>
+            <i   onclick="closeModalFirst()" class="ri-close-circle-line"></i>
+        </div>
+        </div>
+        <div id="modal">
+            <div class="main-content-2">
+            <div class="left-side">
+                <h3>You’re in!</h3>
+                <p class="first-para">Thank you for joining Growlead waitlist.</p>
+                <p>Check your inbox for confirmation message. <br>We will let you know when we launch</p>
+               
+             <div class="read-div">
+                <a class="read" href="https://medium.com/@growleads">Read more about us</a>
+             </div>
+             <i  onclick="closeModal()" class="ri-close-fill clse"></i>
+            </div>
+            <div class="gif">
+                <img class="gif-items-2" src="images/VID-20220726-WA0005_AdobeExpress.gif" alt="gif">
+            </div>
+            <i  onclick="closeModal()" class="ri-close-circle-line"></i>
+        </div>
+        </div> 
+        <img class="big-image" src="images/IMG-20220713-WA0047-removebg-preview.png" alt="">
+        <div class="benefits">
+            <h2>Benefits of using growleads</h2>
+            <div class="benefits-container">
+                <div class="items">
+                    <div class="dot"></div>
+                    <h3>Seamless transaction</h3>
+                    <p>Our platform payment system is secure, and all transactions are completed seamlessly to provide you with the best experience possible.</p>
+                </div>
+                <div class="items">
+                    <div class="dot"></div>
+                    <h3>Top Influencers</h3>
+                    <p>Our platform only features vetted influencers with niched content, allowing brands to collaborate and thrive without worry.</p>
+                </div>
+                <div class="items">
+                    <div class="dot"></div>
+                    <h3>Peak Customer targeting</h3>
+                    <p>Our audience tracking feature allows you to detrmine which audience each influencer has in order to properly promote your brands.</p>
+                </div>
+                <div class="items">
+                    <div class="dot"></div>
+                    <h3>Data-Driven</h3>
+                    <p>We use real-time tracking to provide analytics that will help you decide who to hire for brand promotion.</p>
+                </div>
+                <div class="items">
+                    <div class="dot"></div>
+                    <h3>100+ Brands</h3>
+                    <p>We only accept brands with high-quality products on Growleads to protect influencers and to maintain the quality of our platform.</p>
+                </div>
+                <div class="items">
+                    <div class="dot"></div>
+                    <h3>5+Star support Team</h3>
+                    <p>If you have any problems or require assistance, our support team is always available to help. You can contact them at support@growleads.co.</p>
+                </div>           
+            </div>
+        </div>
+        <div class="last-container">
+            <div class="paragraphs">
+            <p class="para-1">Be the first to know when we launch</p>
+           <p class="para-2">Enter your information and we'll add you to the front of the line. </p>
+           </div>
+           <div class="overall-container">
+          <input class="email-2" type="email" disabled>
+          <a  class="button-join" onclick="openMainModal()" href="#">Join now</a>
+         
+          </div>
+        </div>
+        <a  class="button-join-m" onclick="openMainModal()" href="#">Join now</a>
+</body>
+</html>
